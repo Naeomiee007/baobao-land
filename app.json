@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "BaoBao Land",
+    "slug": "baobao-land",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#FFF4CE"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.baobaoland.mvp",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "BaoBao Land uses the microphone so children can practice Mandarin pronunciation."
+      }
+    },
+    "android": {
+      "package": "com.baobaoland.mvp",
+      "permissions": [
+        "RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "firebaseApiKey": "",
+      "firebaseAuthDomain": "",
+      "firebaseProjectId": "",
+      "firebaseStorageBucket": "",
+      "firebaseMessagingSenderId": "",
+      "firebaseAppId": "",
+      "googleTtsEndpoint": "",
+      "googleSttEndpoint": ""
+    },
+    "plugins": [
+      "expo-asset"
+    ]
+  }
+}
